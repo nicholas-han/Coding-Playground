@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6B66586822E4D8BC006C1EFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B66586722E4D8BC006C1EFE /* main.cpp */; };
-		6B66586F22E4D93C006C1EFE /* 1 - Sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B66586E22E4D93C006C1EFE /* 1 - Sums.cpp */; };
+		6B66586F22E4D93C006C1EFE /* 1. Two Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B66586E22E4D93C006C1EFE /* 1. Two Sum.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		6B66586422E4D8BC006C1EFE /* CPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B66586722E4D8BC006C1EFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		6B66586E22E4D93C006C1EFE /* 1 - Sums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1 - Sums.cpp"; sourceTree = "<group>"; };
+		6B66586E22E4D93C006C1EFE /* 1. Two Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1. Two Sum.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,18 @@
 		6B66586622E4D8BC006C1EFE /* CPlusPlus */ = {
 			isa = PBXGroup;
 			children = (
+				6BBD9C6022ECEC820063C7D6 /* Questions */,
 				6B66586722E4D8BC006C1EFE /* main.cpp */,
-				6B66586E22E4D93C006C1EFE /* 1 - Sums.cpp */,
 			);
 			path = CPlusPlus;
+			sourceTree = "<group>";
+		};
+		6BBD9C6022ECEC820063C7D6 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				6B66586E22E4D93C006C1EFE /* 1. Two Sum.cpp */,
+			);
+			path = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B66586822E4D8BC006C1EFE /* main.cpp in Sources */,
-				6B66586F22E4D93C006C1EFE /* 1 - Sums.cpp in Sources */,
+				6B66586F22E4D93C006C1EFE /* 1. Two Sum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
