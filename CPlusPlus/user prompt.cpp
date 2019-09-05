@@ -1,39 +1,9 @@
-//
-//  main.cpp
-//  CPlusPlus
-//
-//  Created by Nicholas Han on 7/21/19.
-//  Copyright © 2019 Nicholas Han. All rights reserved.
-//
-
 #include <iostream>
-#include <sstream>
 #include <string>
 #include <vector>
 
-template<typename T>
-std::vector<T> load_vector(std::string s) {
-    std::vector<T> myVec;
-    std::stringstream ss;
-    ss << s;
-    std::string temp_str;
-    T temp_val;
-    while (!ss.eof()) {
-        ss >> temp_str;
-        if (std::stringstream(temp_str) >> temp_val)
-            myVec.push_back(temp_val);
-        temp_str = "";
-    }
-
-    return myVec;
-}
-
-template<typename T>
-T load_value(std::string s) {
-    T myVal = 0;
-    return myVal;
-}
-
+#include "toolkit.h"
+#include "LeetCode/TwoSum.h"
 
 int main(int argc, const char * argv[]) {
     char start_over;
@@ -48,12 +18,10 @@ int main(int argc, const char * argv[]) {
         std::cin >> question_number;
         switch(question_number) {
             case 1 : {
-                std::string s = "[1,2,3,4]";
-                std::vector<int> nums = load_vector<int>(s);
-                int target = load_value<int>(s);
-                std::cout << nums.size() << std::endl;
-//                TwoSum().twoSum(nums, target);
-                std::cout << "Failed: 10/12 test cases passed." << std::endl;
+                TwoSum test_object;
+                std::vector<int> nums = test_object.load_nums();
+                int target = test_object.load_target();
+                std::cout << test_object.twoSum(nums, target) << std::endl;
                 break;
             }
             default : std::cout << "Invalid question index." << std::endl;

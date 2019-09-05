@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6B66586822E4D8BC006C1EFE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B66586722E4D8BC006C1EFE /* main.cpp */; };
-		6B66586F22E4D93C006C1EFE /* 1. Two Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B66586E22E4D93C006C1EFE /* 1. Two Sum.cpp */; };
+		6B38EB5A23207EFD0002E32F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB5923207EFD0002E32F /* main.cpp */; };
+		6B38EB652320832A0002E32F /* Problem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB632320832A0002E32F /* Problem.cpp */; };
+		6B38EB69232084D10002E32F /* toolkit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB67232084D10002E32F /* toolkit.cpp */; };
+		6B38EB7223208F200002E32F /* ZigZag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB7123208F200002E32F /* ZigZag.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6B66586222E4D8BC006C1EFE /* CopyFiles */ = {
+		6B38EB5423207EFD0002E32F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +26,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6B66586422E4D8BC006C1EFE /* CPlusPlus */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CPlusPlus; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B66586722E4D8BC006C1EFE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		6B66586E22E4D93C006C1EFE /* 1. Two Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "1. Two Sum.cpp"; sourceTree = "<group>"; };
+		6B38EB5623207EFD0002E32F /* CodingQuestions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingQuestions; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B38EB5923207EFD0002E32F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B38EB632320832A0002E32F /* Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem.cpp; sourceTree = "<group>"; };
+		6B38EB642320832A0002E32F /* Problem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = Problem.h; sourceTree = "<group>"; };
+		6B38EB66232084B30002E32F /* LeetCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LeetCode; sourceTree = "<group>"; };
+		6B38EB67232084D10002E32F /* toolkit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = toolkit.cpp; sourceTree = "<group>"; };
+		6B38EB68232084D10002E32F /* toolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolkit.h; sourceTree = "<group>"; };
+		6B38EB7023208F200002E32F /* ZigZag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZigZag.h; sourceTree = "<group>"; };
+		6B38EB7123208F200002E32F /* ZigZag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZigZag.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6B66586122E4D8BC006C1EFE /* Frameworks */ = {
+		6B38EB5323207EFD0002E32F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,104 +48,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6B66585B22E4D8BC006C1EFE = {
+		6B38EB4D23207EFD0002E32F = {
 			isa = PBXGroup;
 			children = (
-				6B66586622E4D8BC006C1EFE /* CPlusPlus */,
-				6B66586522E4D8BC006C1EFE /* Products */,
+				6B38EB5823207EFD0002E32F /* CodingQuestions */,
+				6B38EB5723207EFD0002E32F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6B66586522E4D8BC006C1EFE /* Products */ = {
+		6B38EB5723207EFD0002E32F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6B66586422E4D8BC006C1EFE /* CPlusPlus */,
+				6B38EB5623207EFD0002E32F /* CodingQuestions */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B66586622E4D8BC006C1EFE /* CPlusPlus */ = {
+		6B38EB5823207EFD0002E32F /* CodingQuestions */ = {
 			isa = PBXGroup;
 			children = (
-				6BBD9C6022ECEC820063C7D6 /* Questions */,
-				6B66586722E4D8BC006C1EFE /* main.cpp */,
+				6B38EB5923207EFD0002E32F /* main.cpp */,
+				6B38EB68232084D10002E32F /* toolkit.h */,
+				6B38EB67232084D10002E32F /* toolkit.cpp */,
+				6B38EB642320832A0002E32F /* Problem.h */,
+				6B38EB632320832A0002E32F /* Problem.cpp */,
+				6B38EB7123208F200002E32F /* ZigZag.cpp */,
+				6B38EB7023208F200002E32F /* ZigZag.h */,
+				6B38EB66232084B30002E32F /* LeetCode */,
 			);
-			path = CPlusPlus;
-			sourceTree = "<group>";
-		};
-		6BBD9C6022ECEC820063C7D6 /* Questions */ = {
-			isa = PBXGroup;
-			children = (
-				6B66586E22E4D93C006C1EFE /* 1. Two Sum.cpp */,
-			);
-			path = Questions;
+			path = CodingQuestions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6B66586322E4D8BC006C1EFE /* CPlusPlus */ = {
+		6B38EB5523207EFD0002E32F /* CodingQuestions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6B66586B22E4D8BC006C1EFE /* Build configuration list for PBXNativeTarget "CPlusPlus" */;
+			buildConfigurationList = 6B38EB5D23207EFD0002E32F /* Build configuration list for PBXNativeTarget "CodingQuestions" */;
 			buildPhases = (
-				6B66586022E4D8BC006C1EFE /* Sources */,
-				6B66586122E4D8BC006C1EFE /* Frameworks */,
-				6B66586222E4D8BC006C1EFE /* CopyFiles */,
+				6B38EB5223207EFD0002E32F /* Sources */,
+				6B38EB5323207EFD0002E32F /* Frameworks */,
+				6B38EB5423207EFD0002E32F /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CPlusPlus;
-			productName = CPlusPlus;
-			productReference = 6B66586422E4D8BC006C1EFE /* CPlusPlus */;
+			name = CodingQuestions;
+			productName = CodingQuestions;
+			productReference = 6B38EB5623207EFD0002E32F /* CodingQuestions */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6B66585C22E4D8BC006C1EFE /* Project object */ = {
+		6B38EB4E23207EFD0002E32F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Nicholas Han";
 				TargetAttributes = {
-					6B66586322E4D8BC006C1EFE = {
-						CreatedOnToolsVersion = 10.2.1;
+					6B38EB5523207EFD0002E32F = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 6B66585F22E4D8BC006C1EFE /* Build configuration list for PBXProject "CPlusPlus" */;
+			buildConfigurationList = 6B38EB5123207EFD0002E32F /* Build configuration list for PBXProject "CodingQuestions" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6B66585B22E4D8BC006C1EFE;
-			productRefGroup = 6B66586522E4D8BC006C1EFE /* Products */;
+			mainGroup = 6B38EB4D23207EFD0002E32F;
+			productRefGroup = 6B38EB5723207EFD0002E32F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6B66586322E4D8BC006C1EFE /* CPlusPlus */,
+				6B38EB5523207EFD0002E32F /* CodingQuestions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B66586022E4D8BC006C1EFE /* Sources */ = {
+		6B38EB5223207EFD0002E32F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B66586822E4D8BC006C1EFE /* main.cpp in Sources */,
-				6B66586F22E4D93C006C1EFE /* 1. Two Sum.cpp in Sources */,
+				6B38EB5A23207EFD0002E32F /* main.cpp in Sources */,
+				6B38EB69232084D10002E32F /* toolkit.cpp in Sources */,
+				6B38EB652320832A0002E32F /* Problem.cpp in Sources */,
+				6B38EB7223208F200002E32F /* ZigZag.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6B66586922E4D8BC006C1EFE /* Debug */ = {
+		6B38EB5B23207EFD0002E32F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -196,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		6B66586A22E4D8BC006C1EFE /* Release */ = {
+		6B38EB5C23207EFD0002E32F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,7 +256,7 @@
 			};
 			name = Release;
 		};
-		6B66586C22E4D8BC006C1EFE /* Debug */ = {
+		6B38EB5E23207EFD0002E32F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +264,7 @@
 			};
 			name = Debug;
 		};
-		6B66586D22E4D8BC006C1EFE /* Release */ = {
+		6B38EB5F23207EFD0002E32F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -267,25 +275,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6B66585F22E4D8BC006C1EFE /* Build configuration list for PBXProject "CPlusPlus" */ = {
+		6B38EB5123207EFD0002E32F /* Build configuration list for PBXProject "CodingQuestions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B66586922E4D8BC006C1EFE /* Debug */,
-				6B66586A22E4D8BC006C1EFE /* Release */,
+				6B38EB5B23207EFD0002E32F /* Debug */,
+				6B38EB5C23207EFD0002E32F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6B66586B22E4D8BC006C1EFE /* Build configuration list for PBXNativeTarget "CPlusPlus" */ = {
+		6B38EB5D23207EFD0002E32F /* Build configuration list for PBXNativeTarget "CodingQuestions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6B66586C22E4D8BC006C1EFE /* Debug */,
-				6B66586D22E4D8BC006C1EFE /* Release */,
+				6B38EB5E23207EFD0002E32F /* Debug */,
+				6B38EB5F23207EFD0002E32F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6B66585C22E4D8BC006C1EFE /* Project object */;
+	rootObject = 6B38EB4E23207EFD0002E32F /* Project object */;
 }
