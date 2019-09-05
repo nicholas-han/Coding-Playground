@@ -30,7 +30,6 @@
 		6B38EB5923207EFD0002E32F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6B38EB632320832A0002E32F /* Problem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Problem.cpp; sourceTree = "<group>"; };
 		6B38EB642320832A0002E32F /* Problem.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = Problem.h; sourceTree = "<group>"; };
-		6B38EB66232084B30002E32F /* LeetCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LeetCode; sourceTree = "<group>"; };
 		6B38EB67232084D10002E32F /* toolkit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = toolkit.cpp; sourceTree = "<group>"; };
 		6B38EB68232084D10002E32F /* toolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolkit.h; sourceTree = "<group>"; };
 		6B38EB7023208F200002E32F /* ZigZag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZigZag.h; sourceTree = "<group>"; };
@@ -72,11 +71,18 @@
 				6B38EB67232084D10002E32F /* toolkit.cpp */,
 				6B38EB642320832A0002E32F /* Problem.h */,
 				6B38EB632320832A0002E32F /* Problem.cpp */,
-				6B38EB7123208F200002E32F /* ZigZag.cpp */,
-				6B38EB7023208F200002E32F /* ZigZag.h */,
-				6B38EB66232084B30002E32F /* LeetCode */,
+				6B38EB742320DA570002E32F /* LeetCode */,
 			);
 			path = CodingQuestions;
+			sourceTree = "<group>";
+		};
+		6B38EB742320DA570002E32F /* LeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				6B38EB7023208F200002E32F /* ZigZag.h */,
+				6B38EB7123208F200002E32F /* ZigZag.cpp */,
+			);
+			path = LeetCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
