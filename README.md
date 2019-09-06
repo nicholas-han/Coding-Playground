@@ -1,7 +1,5 @@
-# Coding-Interview
+# Coding-Playground
 
-This repo contains the coding interview questions I collected.
-
-The basic format should be Company -> Question -> description.md, answer.cpp, test_answer.cpp
+This repo contains my coding pratices such as coding interview questions I collected.
 
 
