@@ -19,6 +19,7 @@ public:
 private:
     string word, wordZigZag;
     int numRows;
+
 };
 
 
