@@ -26,21 +26,17 @@ string ZigZag::convert(string s, int numRows) {
     string zigZagStr;
     for (string row : rows) zigZagStr += row;
     return zigZagStr;
-
 }
 
 void ZigZag::load() {
     word = loadString("String: ");
     numRows = loadInt("Number of rows: ");
-
 }
 
 void ZigZag::solve() {
     wordZigZag = convert(word, numRows);
-
 }
 
 void ZigZag::print() {
-    cout << "Output: " << wordZigZag << endl;
-
+    cout << "Compressed zig zag: " << wordZigZag << endl;
 }

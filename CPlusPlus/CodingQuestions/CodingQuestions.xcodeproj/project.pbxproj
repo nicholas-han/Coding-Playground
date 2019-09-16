@@ -12,6 +12,7 @@
 		6B38EB69232084D10002E32F /* toolkit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB67232084D10002E32F /* toolkit.cpp */; };
 		6B38EB7223208F200002E32F /* ZigZag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB7123208F200002E32F /* ZigZag.cpp */; };
 		6B38EB7923221F2F0002E32F /* LongestPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B38EB7723221F2F0002E32F /* LongestPalindrome.cpp */; };
+		6B615067232F29370016C804 /* KthPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B615065232F29370016C804 /* KthPermutation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		6B38EB7123208F200002E32F /* ZigZag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ZigZag.cpp; sourceTree = "<group>"; };
 		6B38EB7723221F2F0002E32F /* LongestPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LongestPalindrome.cpp; sourceTree = "<group>"; };
 		6B38EB7823221F2F0002E32F /* LongestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestPalindrome.h; sourceTree = "<group>"; };
+		6B615065232F29370016C804 /* KthPermutation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthPermutation.cpp; sourceTree = "<group>"; };
+		6B615066232F29370016C804 /* KthPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KthPermutation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 		6B38EB7623221EA50002E32F /* JumpTrading */ = {
 			isa = PBXGroup;
 			children = (
+				6B615065232F29370016C804 /* KthPermutation.cpp */,
+				6B615066232F29370016C804 /* KthPermutation.h */,
 			);
 			path = JumpTrading;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			files = (
 				6B38EB5A23207EFD0002E32F /* main.cpp in Sources */,
 				6B38EB7923221F2F0002E32F /* LongestPalindrome.cpp in Sources */,
+				6B615067232F29370016C804 /* KthPermutation.cpp in Sources */,
 				6B38EB69232084D10002E32F /* toolkit.cpp in Sources */,
 				6B38EB652320832A0002E32F /* Problem.cpp in Sources */,
 				6B38EB7223208F200002E32F /* ZigZag.cpp in Sources */,
