@@ -1,8 +1,10 @@
-# Coding-Playground
+---
+layout: post
 
-This repo contains my coding pratices such as coding interview questions I collected.
 
+---
 
+tech topics to be written: 
 #### Good Coding Habits
 * good coding habits ([seven ineffective coding habits](https://www.youtube.com/watch?v=ZsHMHukIlJY))
  * writing clear, self-explanatory code is more powerful than comments, as comments may not be updated in time and always take much space to reduce readability of code.
